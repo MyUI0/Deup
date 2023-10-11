@@ -12,7 +12,7 @@ class MoviesTv extends Deup {
    * @type {{layout: string, name: string, pageSize: number, timeout: number}}
    */
   config = {
-    name: '金鹰影视¥',
+    name: '金鹰影视🎃',
     logo: 'https://bpic.588ku.com/element_origin_min_pic/23/04/23/a9639ffdd30b8e0e0aca5e96ae3e3478.jpg',
     layout: 'poster',
     timeout: 10000,
