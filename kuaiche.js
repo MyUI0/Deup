@@ -1,7 +1,7 @@
 /**
  * MoviesTv plugin for Deup
  *
- * @class LOOK
+ * @class MoviesTv
  * @extends {Deup}
  * @author ZiHang Gao
  */
@@ -18,7 +18,7 @@ class MoviesTv extends Deup {
     timeout: 10000,
     pageSize: 20,
     color: '#FFFFFF',
-    background: ['#k995EC', '#tc9678'],
+    background: ['#4225EC', '#755678'],
     headers: {
       'User-Agent':
         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
@@ -149,4 +149,4 @@ class MoviesTv extends Deup {
   }
 }
 
-Deup.execute(new LOOK());
+Deup.execute(new MoviesTv());
